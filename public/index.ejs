@@ -1,0 +1,167 @@
+<header class="masthead">
+  <div class="header-content">
+    <div class="header-content-inner">
+      <img src="img/logo.png" class="img-logo">
+      <hr>
+      <p style="color: rgb(187, 187, 187); font-family: sans-serif;"> Vou ajudar você a conhecer e entender como pensavam os grandes filosofos do mundo!</p>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"> GO </a>
+    </div>
+  </div>
+</header>
+
+<section class="bg-primary" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading text-white">Sobre mim</h2>
+        <hr class="light">
+        <p class="text-faded">Olá sou Sófia, fui pensada por dois jovens que estudam no IFRS - Campus Rio Grande, mas fui criada por um dos pensadores
+          e outro que chegou depois, para ajudar, Os meus criadorores são João Pedro Prestes e Rodrigo Martins que me fizeram
+          para ajudar os alunos que acabam se enrolando e se perdendo em relação aos filosófos e seus livros, está na hora
+          de aprender!!</p>
+        <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Conheça os Filosófos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Filosófos</h2>
+        <hr class="primary">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="service-box">
+          <img src="img/aristoteles.jpg" class="img-filosofo-sb">
+          <h3>Aristoteles</h3>
+          <p class="text-muted">384-322 a.C.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="service-box">
+          <img src="img/plato.jpg" class="img-filosofo-sb">
+          <h3>Platão</h3>
+          <p class="text-muted">427-347 a.C.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="service-box">
+          <img src="img/agosto.jpg" class="img-filosofo-sb">
+          <h3>Santo Agostinho</h3>
+          <p class="text-muted">354-430</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center">
+        <div class="service-box">
+          <img src="img/tomas.jpg" class="img-filosofo-sb">
+          <h3>São Tomás de Aquino</h3>
+          <p class="text-muted">1225-1274</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-primary" id="login">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading text-white">Entrar | Registrar</h2>
+        <hr class="light">
+
+        
+        <button type="button" class="btn btn-default btn-xl js-scroll-trigger" data-toggle="modal" data-target="#myModal">Clique Aqui!</button>
+        
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> <strong> LOGIN </strong> </h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <div class="input-group">
+                    <input id="username" type="text" class="form-control" placeholder="Nome de usuário" aria-label="Nome de usuário" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">@filosofo.com</span>
+                  </div>
+                </p>
+                <p>
+                  <div class="input-group">
+                    <input id="senha" type="password" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon2">
+                  </div>
+                </p>
+                <div id="erro"></div>
+              </div>
+              <div class="modal-footer">
+                <button id="gLogin" type="button" class="btn btn-default"> GOOGLE+ </button>
+                <button id="fbLogin" type="button" class="btn btn-default"> FACEBOOK </button>
+                <button id="normalLogin" type="button" class="btn btn-default" >Logar</button>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Registrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="myModal1" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> <strong> REGISTRAR </strong> </h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <div class="input-group">
+                    <input  id="usernameReg" type="text" class="form-control" placeholder="Nome de usuário" aria-label="Nome de usuário" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">@filosofo.com</span>
+                  </div>
+                </p>
+                <p>
+                  <div class="input-group">
+                    <input id="senhaReg" type="password" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon2">
+                    <input id="confirmsenhaReg" type="password" class="form-control" placeholder="Confirmar Senha" aria-label="Confirmar Senha"
+                      aria-describedby="basic-addon2">
+                  </div>
+                </p>
+                <div id="erro1"></div>
+              </div>
+              <div class="modal-footer">
+                <button id="registrar" type="button" class="btn btn-default" >Registrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">Até mais !</h2>
+        <hr class="primary">
+        <p> Muito obrigada pela visita, agradeço do fundo do meu servidor. </p>
+        <p> Contado dos meus criadores: 
+          <a href="https://www.facebook.com/joaopedro.mendoncaprestes.7"> João Pedro Prestes </a>
+          e
+          <a href="https://www.facebook.com/Rodrigo.Martins.Angra"> Rodrigo Martins </a>
+          .
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="js/login.js"></script>
+<!-- dhuashduhasud -->

@@ -1,0 +1,80 @@
+<div class="container">
+    <section class="p-0" id="portfolio">
+        <div class="container-fluid">
+            <div id="livros" class="row no-gutter popup-gallery"></div>
+        </div>
+    </section>
+    <hr>
+    <button type="button" class="btn btn-dark btn-lg btn-block btn-quadrado"> TODOS LIVROS </button>
+    <button type="button" id="addLivros" class="btn btn-dark btn-lg btn-block btn-quadrado"  data-toggle="modal" data-target="#myModal"> ADICIONAR LIVROS </button>
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> <strong> ADICIONAR LIVRO </strong> </h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <div class="input-group">
+                    <input id="nome" type="text" class="form-control" placeholder="Nome" aria-label="Nome" aria-describedby="basic-addon2">
+                  </div>
+                </p>
+                <p>
+                  <div class="input-group">
+                    <input id="autor" type="text" class="form-control" placeholder="Autor" aria-label="Autor" aria-describedby="basic-addon2">
+                  </div>
+                </p>
+                <p>
+                  <div class="input-group">
+                    <input id="foto" type="text" class="form-control" placeholder="Id da foto" aria-label="Id da Foto" aria-describedby="basic-addon2">
+                  </div>
+                </p>
+                <p>
+                  <div class="input-group">
+                    <input id="texto" type="text" class="form-control" placeholder="Texto" aria-label="Texto" aria-describedby="basic-addon2">
+                  </div>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button id="adicionarLivro" type="button" class="btn btn-default"> ADICIONAR </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    <button type="button" id="trocaSenha" class="btn btn-dark btn-lg btn-block btn-quadrado" data-toggle="modal" data-target="#myModal"> TROCAR SENHA </button>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> <strong> TROQUE A SENHA: </strong> </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <div class="input-group">
+                                <input id="senha" type="password" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon2">
+                                <input id="confSenha" type="password" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon2">
+                            </div>
+                        </p>
+                        <div id="error">
+                        </div>   
+                    </div>
+                    <div class="modal-footer">
+                        <button id="trocarSenha" type="button" class="btn btn-default">OK</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">CANCELAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr>
+    <button type="button" id="deslogar" class="btn btn-default btn-lg btn-block btn-quadrado"> DESLOGAR </button>
+</div>
+
+<script src="js/livros.js"></script>

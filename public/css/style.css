@@ -1,0 +1,49 @@
+.img-filosofo-sb{
+    width: 50%;
+    height: 60%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.img-logo{
+    width: 40%;
+    height: 50%;
+}
+
+.btn-quadrado {
+    border-radius: 6px;
+}
+
+.ajusta-body {
+    margin-top: 90px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.btn-default{
+    color:#fff;
+    border-color:#007bff;
+    background-color:#007bff;
+}
+
+.btn-default:hover{
+    color:#fff;
+    border-color:#0366CF;
+    background-color:#0366CF;
+}
+
+.comentario {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#comentarios {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+#pagina {
+    max-height: 550px;
+    overflow-y: scroll;
+}
